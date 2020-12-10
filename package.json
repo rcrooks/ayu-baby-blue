@@ -1,0 +1,32 @@
+{
+	"name": "ayu-baby-blue",
+	"displayName": "Ayu Baby Blue",
+	"description": "Made Ayu Dark Theme more easier to see and colorized it with Baby Blue",
+	"publisher": "Kei Funatsuya",
+	"license": "MIT",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.51.0"
+	},
+	"icon": "assets/logo.png",
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jimbaran5601406/ayu-baby-blue"
+	},
+	"keywords": [
+		"theme",
+		"ayu"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ayu Baby Blue",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Ayu Baby Blue-color-theme.json"
+			}
+		]
+	}
+}
