@@ -4,7 +4,7 @@
 	"description": "Made Ayu Dark Theme more easier to see and colorized it with Baby Blue",
 	"publisher": "KF",
 	"license": "MIT",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.51.0"
 	},
@@ -28,5 +28,10 @@
 				"path": "./themes/Ayu Baby Blue-color-theme.json"
 			}
 		]
+	},
+	"__metadata": {
+		"id": "d6050373-8c22-4c6b-8589-09a0b8e88d83",
+		"publisherDisplayName": "KF",
+		"publisherId": "c8b5607e-6438-4e5e-846c-130de9af7586"
 	}
 }
