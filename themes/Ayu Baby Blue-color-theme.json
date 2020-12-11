@@ -1,24 +1,46 @@
 {
 	"type": "dark",
 	"colors": {
+		// Base colors
+		// https://code.visualstudio.com/api/references/theme-color#base-colors
 		"focusBorder": "#fff",
-		"foreground": "#4d5566",
-		"widget.shadow": "#fff",
-		"selection.background": "#fff",
+		"foreground": "#98938d",
+		"widget.shadow": "#cccccc",
+		"selection.background": "#799cbc",
 		"icon.foreground": "#fff",
 		"errorForeground": "#ff3333",
 		"descriptionForeground": "#4d5566",
+
+		// Text colors
+		// Colors inside a text document, such as the welcome page.
+		// https://code.visualstudio.com/api/references/theme-color#text-colors
 		"textBlockQuote.background": "#0d1016",
 		"textLink.foreground": "#e6b450",
 		"textLink.activeForeground": "#e6b450",
 		"textPreformat.foreground": "#b3b1ad",
+
+		// Button control
+		// A set of colors for button widgets such as Open Folder button in the Explorer of a new window.
+		// https://code.visualstudio.com/api/references/theme-color#button-control
 		"button.background": "#e6b450",
 		"button.foreground": "#0a0e14",
 		"button.hoverBackground": "#e1af4b",
+
+		// Breadcrumbs colors
+		// The theme colors for breadcrumbs navigation:
+		// https://code.visualstudio.com/api/references/theme-color#breadcrumbs-colors
 		"breadcrumb.foreground": "#fff",
+
+		// Dropdown control
+		// A set of colors for all Dropdown widgets such as in the Integrated Terminal or the Output panel. Note that the Dropdown control is not used on macOS currently.
+		// https://code.visualstudio.com/api/references/theme-color#dropdown-control
 		"dropdown.background": "#799cbc",
 		"dropdown.foreground": "#272727",
 		"dropdown.border": "#2b303a",
+
+		// Input control
+		// Colors for input controls such as in the Search view or the Find/Replace dialog.
+		// https://code.visualstudio.com/api/references/theme-color#input-control
 		"input.background": "#030810",
 		"input.border": "#2b303a",
 		"input.foreground": "#b3b1ad",
@@ -30,13 +52,28 @@
 		"inputValidation.infoBorder": "#39bae6",
 		"inputValidation.warningBackground": "#0a0e14",
 		"inputValidation.warningBorder": "#ffb454",
+
+		// Scrollbar control
+		// https://code.visualstudio.com/api/references/theme-color#scrollbar-control
 		"scrollbar.shadow": "#00010a",
-		"scrollbarSlider.background": "#4d556666",
+		"scrollbarSlider.background": "#6994bf99",
 		"scrollbarSlider.hoverBackground": "#4d556699",
 		"scrollbarSlider.activeBackground": "#4d5566b3",
+
+		// Badge
+		// Badges are small information labels, for example, search results count.
+		// https://code.visualstudio.com/api/references/theme-color#badge
 		"badge.background": "#e6b45033",
 		"badge.foreground": "#e6b450",
+
+		// Progress bar
+		// progressBar.background: Background color of the progress bar shown for long running operations.
+		// https://code.visualstudio.com/api/references/theme-color#badge
 		"progressBar.background": "#e6b450",
+
+		// Lists and trees
+		// Colors for list and trees like the File Explorer. An active list/tree has keyboard focus, an inactive does not.
+		// https://code.visualstudio.com/api/references/theme-color#lists-and-trees
 		"list.activeSelectionBackground": "#4d5566e6",
 		"list.activeSelectionForeground": "#fff",
 		"list.focusBackground": "#4d5566e6",
@@ -54,18 +91,35 @@
 		"listFilterWidget.noMatchesOutline": "#ff3333",
 		"list.filterMatchBorder": "#e6b450",
 		"list.filterMatchBackground": "#e6b4500d",
+
+		// Activity Bar
+		// The Activity Bar is displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar.
+		// https://code.visualstudio.com/api/references/theme-color#activity-bar
 		"activityBar.background": "#0a0e14",
 		"activityBar.foreground": "#fff",
-		"activityBar.inactiveForeground": "#4d556699",
+		"activityBar.inactiveForeground": "#98938d",
 		"activityBar.border": "#0a0e14",
 		"activityBarBadge.background": "#e6b450",
 		"activityBarBadge.foreground": "#0a0e14",
+
+		// Side Bar
+		// The Side Bar contains views like the Explorer and Search.
+		// https://code.visualstudio.com/api/references/theme-color#side-bar
 		"sideBar.background": "#0a0e14",
 		"sideBar.border": "#0a0e14",
-		"sideBarTitle.foreground": "#4d5566",
+		"sideBarTitle.foreground": "#98938d",
 		"sideBarSectionHeader.background": "#0a0e14",
 		"sideBarSectionHeader.foreground": "#fff",
 		"sideBarSectionHeader.border": "#0a0e14",
+
+		// If you want to customize Minimap color, check this out.
+		// Minimap
+		// The Minimap shows a minified version of the current file.
+		// https://code.visualstudio.com/api/references/theme-color#minimap
+
+		// Editor Groups & Tabs
+		// Editor Groups are the containers of editors. There can be many editor groups. A Tab is the container of an editor. Multiple Tabs can be opened in one editor group.
+		// https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
 		"editorGroup.border": "#00010a",
 		"editorGroup.background": "#0d1016",
 		"editorGroupHeader.noTabsBackground": "#0a0e14",
@@ -77,9 +131,13 @@
 		"tab.activeBorder": "#e6b450",
 		"tab.unfocusedActiveBorder": "#4d5566",
 		"tab.inactiveBackground": "#0a0e14",
-		"tab.inactiveForeground": "#4d5566",
+		"tab.inactiveForeground": "#98938d",
 		"tab.unfocusedActiveForeground": "#4d5566",
 		"tab.unfocusedInactiveForeground": "#4d5566",
+
+		// Editor colors
+		// The most prominent editor colors are the token colors used for syntax highlighting and are based on the language grammar installed. These colors are defined by the Color Theme but can also be customized with the editor.tokenColorCustomizations setting. See Customizing a Color Theme for details on updating a Color Theme and the available token types.
+		// https://code.visualstudio.com/api/references/theme-color#editor-colors
 		"editor.background": "#0a0e14",
 		"editor.foreground": "#b3b1ad",
 		"editorLineNumber.foreground": "#4d556699",
@@ -120,8 +178,16 @@
 		"editorGutter.modifiedBackground": "#6994bf99",
 		"editorGutter.addedBackground": "#91b36299",
 		"editorGutter.deletedBackground": "#d96c7599",
+
+		// Diff editor colors
+		// For coloring inserted and removed text, use either a background or a border color but not both.
+		// https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
 		"diffEditor.insertedTextBackground": "#c2d94c26",
 		"diffEditor.removedTextBackground": "#f2966826",
+
+		// Editor widget colors
+		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
+		// https://code.visualstudio.com/api/references/theme-color#editor-widget-colors
 		"editorWidget.background": "#0d1016",
 		"editorSuggestWidget.background": "#0d1016",
 		"editorSuggestWidget.border": "#000000",
@@ -132,6 +198,10 @@
 		"debugExceptionWidget.border": "#00010a",
 		"debugExceptionWidget.background": "#0d1016",
 		"editorMarkerNavigation.background": "#0d1016",
+
+		// Peek view colors
+		// Peek views are used to show references and declarations as a view inside the editor.
+		// https://code.visualstudio.com/api/references/theme-color#peek-view-colors
 		"peekView.border": "#00010a",
 		"peekViewEditor.background": "#0d1016",
 		"peekViewEditor.matchHighlightBackground": "#e6b45033",
@@ -141,11 +211,19 @@
 		"peekViewTitle.background": "#0d1016",
 		"peekViewTitleDescription.foreground": "#4d5566",
 		"peekViewTitleLabel.foreground": "#4d5566",
+
+		// Panel colors
+		// Panels are shown below the editor area and contain views like Output and Integrated Terminal.
+		// https://code.visualstudio.com/api/references/theme-color#panel-colors
 		"panel.background": "#0a0e14",
 		"panel.border": "#00010a",
 		"panelTitle.activeBorder": "#e6b450",
-		"panelTitle.activeForeground": "#b3b1ad",
-		"panelTitle.inactiveForeground": "#4d5566",
+		"panelTitle.activeForeground": "#fff",
+		"panelTitle.inactiveForeground": "#98938d",
+
+		// Status Bar colors
+		// The Status Bar is shown in the bottom of the workbench.
+		// https://code.visualstudio.com/api/references/theme-color#status-bar-colors
 		"statusBar.background": "#799cbc",
 		"statusBar.foreground": "#272727",
 		"statusBar.border": "#0a0e14",
@@ -156,26 +234,51 @@
 		"statusBarItem.hoverBackground": "#00010a",
 		"statusBarItem.prominentBackground": "#00010a",
 		"statusBarItem.prominentHoverBackground": "#00000030",
+
+		// Title Bar colors
+		// https://code.visualstudio.com/api/references/theme-color#title-bar-colors
 		"titleBar.activeBackground": "#799cbc",
 		"titleBar.activeForeground": "#272727",
 		"titleBar.inactiveBackground": "#0a0e14",
 		"titleBar.inactiveForeground": "#4d5566",
 		"titleBar.border": "#0a0e14",
+
+		// Extensions colors
+		// https://code.visualstudio.com/api/references/theme-color#extensions-colors
 		"extensionButton.prominentForeground": "#0a0e14",
 		"extensionButton.prominentBackground": "#e6b450",
 		"extensionButton.prominentHoverBackground": "#e1af4b",
+
+		// Quick picker colors
+		// https://code.visualstudio.com/api/references/theme-color#quick-picker-colors
 		"pickerGroup.border": "#00010a",
 		"pickerGroup.foreground": "#373d49",
+
+		// Debug colors
+		// https://code.visualstudio.com/api/references/theme-color#debug-colors
 		"debugToolBar.background": "#0d1016",
+
+		// Welcome page colors
+		// https://code.visualstudio.com/api/references/theme-color#welcome-page-colors
 		"walkThrough.embeddedEditorBackground": "#0d1016",
+
+		// Git colors
+		// https://code.visualstudio.com/api/references/theme-color#git-colors
 		"gitDecoration.modifiedResourceForeground": "#6994bfb3",
 		"gitDecoration.deletedResourceForeground": "#d96c75b3",
 		"gitDecoration.untrackedResourceForeground": "#91b362b3",
 		"gitDecoration.ignoredResourceForeground": "#373d49",
 		"gitDecoration.conflictingResourceForeground": "",
 		"gitDecoration.submoduleResourceForeground": "#ffee99b3",
+
+		// Settings Editor colors
+		// Note: These colors are for the GUI settings editor which can be opened with the Preferences: Open Settings (UI) command.
+		// https://code.visualstudio.com/api/references/theme-color#settings-editor-colors
 		"settings.headerForeground": "#b3b1ad",
 		"settings.modifiedItemIndicator": "#6994bf",
+
+		// Integrated Terminal colors
+		// https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors
 		"terminal.background": "#0a0e14",
 		"terminal.foreground": "#b3b1ad",
 		"terminal.ansiBlack": "#00010a",
