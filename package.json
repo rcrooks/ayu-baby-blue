@@ -26,7 +26,13 @@
 				"label": "Ayu Baby Blue",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Ayu Baby Blue-color-theme.json"
+      },
+      {
+				"label": "Ayu Baby Blue Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Ayu Baby Blue Italic-color-theme.json"
 			}
+
 		]
 	},
 	"__metadata": {
