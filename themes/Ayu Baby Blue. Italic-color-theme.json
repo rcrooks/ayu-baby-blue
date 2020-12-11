@@ -1,0 +1,760 @@
+{
+	"type": "dark",
+	"colors": {
+		// Base colors
+		// https://code.visualstudio.com/api/references/theme-color#base-colors
+		"focusBorder": "#fff",
+		"foreground": "#98938d",
+		"widget.shadow": "#cccccc",
+		"selection.background": "#799cbc",
+		"icon.foreground": "#fff",
+		"errorForeground": "#ff3333",
+		"descriptionForeground": "#4d5566",
+
+		// Text colors
+		// Colors inside a text document, such as the welcome page.
+		// https://code.visualstudio.com/api/references/theme-color#text-colors
+		"textBlockQuote.background": "#0d1016",
+		"textLink.foreground": "#e6b450",
+		"textLink.activeForeground": "#e6b450",
+		"textPreformat.foreground": "#b3b1ad",
+
+		// Button control
+		// A set of colors for button widgets such as Open Folder button in the Explorer of a new window.
+		// https://code.visualstudio.com/api/references/theme-color#button-control
+		"button.background": "#e6b450",
+		"button.foreground": "#0a0e14",
+		"button.hoverBackground": "#e1af4b",
+
+		// Breadcrumbs colors
+		// The theme colors for breadcrumbs navigation:
+		// https://code.visualstudio.com/api/references/theme-color#breadcrumbs-colors
+		"breadcrumb.foreground": "#fff",
+
+		// Dropdown control
+		// A set of colors for all Dropdown widgets such as in the Integrated Terminal or the Output panel. Note that the Dropdown control is not used on macOS currently.
+		// https://code.visualstudio.com/api/references/theme-color#dropdown-control
+		"dropdown.background": "#799cbc",
+		"dropdown.foreground": "#272727",
+		"dropdown.border": "#2b303a",
+
+		// Input control
+		// Colors for input controls such as in the Search view or the Find/Replace dialog.
+		// https://code.visualstudio.com/api/references/theme-color#input-control
+		"input.background": "#030810",
+		"input.border": "#2b303a",
+		"input.foreground": "#b3b1ad",
+		"input.placeholderForeground": "#414856",
+		"inputOption.activeBorder": "#e6b450",
+		"inputValidation.errorBackground": "#0a0e14",
+		"inputValidation.errorBorder": "#ff3333",
+		"inputValidation.infoBackground": "#0a0e14",
+		"inputValidation.infoBorder": "#39bae6",
+		"inputValidation.warningBackground": "#0a0e14",
+		"inputValidation.warningBorder": "#ffb454",
+
+		// Scrollbar control
+		// https://code.visualstudio.com/api/references/theme-color#scrollbar-control
+		"scrollbar.shadow": "#00010a",
+		"scrollbarSlider.background": "#6994bf99",
+		"scrollbarSlider.hoverBackground": "#4d556699",
+		"scrollbarSlider.activeBackground": "#4d5566b3",
+
+		// Badge
+		// Badges are small information labels, for example, search results count.
+		// https://code.visualstudio.com/api/references/theme-color#badge
+		"badge.background": "#e6b45033",
+		"badge.foreground": "#e6b450",
+
+		// Progress bar
+		// progressBar.background: Background color of the progress bar shown for long running operations.
+		// https://code.visualstudio.com/api/references/theme-color#badge
+		"progressBar.background": "#e6b450",
+
+		// Lists and trees
+		// Colors for list and trees like the File Explorer. An active list/tree has keyboard focus, an inactive does not.
+		// https://code.visualstudio.com/api/references/theme-color#lists-and-trees
+		"list.activeSelectionBackground": "#4d5566e6",
+		"list.activeSelectionForeground": "#fff",
+		"list.focusBackground": "#4d5566e6",
+		"list.focusForeground": "#fff",
+		"list.highlightForeground": "#e6b450",
+		"list.hoverBackground": "#4d5566e6",
+		"list.hoverForeground": "#fff",
+		"list.inactiveSelectionBackground": "#00010a",
+		"list.inactiveSelectionForeground": "#4d5566",
+		"list.invalidItemForeground": "#414856",
+		"list.errorForeground": "#d96c75",
+		"tree.indentGuidesStroke": "#4d5566b3",
+		"listFilterWidget.background": "#0d1016",
+		"listFilterWidget.outline": "#e6b450",
+		"listFilterWidget.noMatchesOutline": "#ff3333",
+		"list.filterMatchBorder": "#e6b450",
+		"list.filterMatchBackground": "#e6b4500d",
+
+		// Activity Bar
+		// The Activity Bar is displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar.
+		// https://code.visualstudio.com/api/references/theme-color#activity-bar
+		"activityBar.background": "#0a0e14",
+		"activityBar.foreground": "#fff",
+		"activityBar.inactiveForeground": "#98938d",
+		"activityBar.border": "#0a0e14",
+		"activityBarBadge.background": "#e6b450",
+		"activityBarBadge.foreground": "#0a0e14",
+
+		// Side Bar
+		// The Side Bar contains views like the Explorer and Search.
+		// https://code.visualstudio.com/api/references/theme-color#side-bar
+		"sideBar.background": "#0a0e14",
+		"sideBar.border": "#0a0e14",
+		"sideBarTitle.foreground": "#98938d",
+		"sideBarSectionHeader.background": "#0a0e14",
+		"sideBarSectionHeader.foreground": "#fff",
+		"sideBarSectionHeader.border": "#0a0e14",
+
+		// If you want to customize Minimap color, check this out.
+		// Minimap
+		// The Minimap shows a minified version of the current file.
+		// https://code.visualstudio.com/api/references/theme-color#minimap
+
+		// Editor Groups & Tabs
+		// Editor Groups are the containers of editors. There can be many editor groups. A Tab is the container of an editor. Multiple Tabs can be opened in one editor group.
+		// https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
+		"editorGroup.border": "#00010a",
+		"editorGroup.background": "#0d1016",
+		"editorGroupHeader.noTabsBackground": "#0a0e14",
+		"editorGroupHeader.tabsBackground": "#0a0e14",
+		"editorGroupHeader.tabsBorder": "#0a0e14",
+		"tab.activeBackground": "#0a0e14",
+		"tab.activeForeground": "#fff",
+		"tab.border": "#0a0e14",
+		"tab.activeBorder": "#e6b450",
+		"tab.unfocusedActiveBorder": "#4d5566",
+		"tab.inactiveBackground": "#0a0e14",
+		"tab.inactiveForeground": "#98938d",
+		"tab.unfocusedActiveForeground": "#4d5566",
+		"tab.unfocusedInactiveForeground": "#4d5566",
+
+		// Editor colors
+		// The most prominent editor colors are the token colors used for syntax highlighting and are based on the language grammar installed. These colors are defined by the Color Theme but can also be customized with the editor.tokenColorCustomizations setting. See Customizing a Color Theme for details on updating a Color Theme and the available token types.
+		// https://code.visualstudio.com/api/references/theme-color#editor-colors
+		"editor.background": "#0a0e14",
+		"editor.foreground": "#b3b1ad",
+		"editorLineNumber.foreground": "#4d556699",
+		"editorLineNumber.activeForeground": "#4d5566e6",
+		"editorCursor.foreground": "#e6b450",
+		"editor.selectionBackground": "#3d5064",
+		"editor.inactiveSelectionBackground": "#1b2733",
+		"editor.selectionHighlightBackground": "#1b2733",
+		"editor.selectionHighlightBorder": "#304357",
+		"editor.wordHighlightBackground": "#6994bf12",
+		"editor.wordHighlightBorder": "#6994bf59",
+		"editor.wordHighlightStrongBackground": "#91b36212",
+		"editor.wordHighlightStrongBorder": "#91b36280",
+		"editor.findMatchBackground": "#e6b4500d",
+		"editor.findMatchBorder": "#e6b450",
+		"editor.findMatchHighlightBackground": "#e6b4500d",
+		"editor.findMatchHighlightBorder": "#e6b45059",
+		"editor.findRangeHighlightBackground": "#1b2733",
+		"editor.findRangeHighlightBorder": "#0a0e1400",
+		"editor.lineHighlightBackground": "#799cbc26",
+		"editorLink.activeForeground": "#e6b450",
+		"editor.rangeHighlightBackground": "#00010a",
+		"editorWhitespace.foreground": "#4d556699",
+		"editorIndentGuide.background": "#4d556666",
+		"editorIndentGuide.activeBackground": "#4d5566b3",
+		"editorRuler.foreground": "#4d556666",
+		"editorCodeLens.foreground": "#626a73",
+		"editorBracketMatch.background": "#4d55664d",
+		"editorBracketMatch.border": "#4d556699",
+		"editorOverviewRuler.border": "#00010a",
+		"editorOverviewRuler.modifiedForeground": "#6994bf99",
+		"editorOverviewRuler.addedForeground": "#91b36299",
+		"editorOverviewRuler.deletedForeground": "#d96c7599",
+		"editorOverviewRuler.errorForeground": "#ff3333",
+		"editorOverviewRuler.warningForeground": "#e6b450",
+		"editorError.foreground": "#ff3333",
+		"editorWarning.foreground": "#e6b450",
+		"editorGutter.modifiedBackground": "#6994bf99",
+		"editorGutter.addedBackground": "#91b36299",
+		"editorGutter.deletedBackground": "#d96c7599",
+
+		// Diff editor colors
+		// For coloring inserted and removed text, use either a background or a border color but not both.
+		// https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
+		"diffEditor.insertedTextBackground": "#c2d94c26",
+		"diffEditor.removedTextBackground": "#f2966826",
+
+		// Editor widget colors
+		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
+		// https://code.visualstudio.com/api/references/theme-color#editor-widget-colors
+		"editorWidget.background": "#0d1016",
+		"editorSuggestWidget.background": "#0d1016",
+		"editorSuggestWidget.border": "#000000",
+		"editorSuggestWidget.highlightForeground": "#e6b450",
+		"editorSuggestWidget.selectedBackground": "#00010a",
+		"editorHoverWidget.background": "#0d1016",
+		"editorHoverWidget.border": "#000000",
+		"debugExceptionWidget.border": "#00010a",
+		"debugExceptionWidget.background": "#0d1016",
+		"editorMarkerNavigation.background": "#0d1016",
+
+		// Peek view colors
+		// Peek views are used to show references and declarations as a view inside the editor.
+		// https://code.visualstudio.com/api/references/theme-color#peek-view-colors
+		"peekView.border": "#00010a",
+		"peekViewEditor.background": "#0d1016",
+		"peekViewEditor.matchHighlightBackground": "#e6b45033",
+		"peekViewResult.background": "#0d1016",
+		"peekViewResult.fileForeground": "#4d5566",
+		"peekViewResult.matchHighlightBackground": "#e6b45033",
+		"peekViewTitle.background": "#0d1016",
+		"peekViewTitleDescription.foreground": "#4d5566",
+		"peekViewTitleLabel.foreground": "#4d5566",
+
+		// Panel colors
+		// Panels are shown below the editor area and contain views like Output and Integrated Terminal.
+		// https://code.visualstudio.com/api/references/theme-color#panel-colors
+		"panel.background": "#0a0e14",
+		"panel.border": "#00010a",
+		"panelTitle.activeBorder": "#e6b450",
+		"panelTitle.activeForeground": "#fff",
+		"panelTitle.inactiveForeground": "#98938d",
+
+		// Status Bar colors
+		// The Status Bar is shown in the bottom of the workbench.
+		// https://code.visualstudio.com/api/references/theme-color#status-bar-colors
+		"statusBar.background": "#799cbc",
+		"statusBar.foreground": "#272727",
+		"statusBar.border": "#0a0e14",
+		"statusBar.debuggingBackground": "#f29668",
+		"statusBar.debuggingForeground": "#0a0e14",
+		"statusBar.noFolderBackground": "#0d1016",
+		"statusBarItem.activeBackground": "#00010a",
+		"statusBarItem.hoverBackground": "#00010a",
+		"statusBarItem.prominentBackground": "#00010a",
+		"statusBarItem.prominentHoverBackground": "#00000030",
+
+		// Title Bar colors
+		// https://code.visualstudio.com/api/references/theme-color#title-bar-colors
+		"titleBar.activeBackground": "#799cbc",
+		"titleBar.activeForeground": "#272727",
+		"titleBar.inactiveBackground": "#0a0e14",
+		"titleBar.inactiveForeground": "#4d5566",
+		"titleBar.border": "#0a0e14",
+
+		// Extensions colors
+		// https://code.visualstudio.com/api/references/theme-color#extensions-colors
+		"extensionButton.prominentForeground": "#0a0e14",
+		"extensionButton.prominentBackground": "#e6b450",
+		"extensionButton.prominentHoverBackground": "#e1af4b",
+
+		// Quick picker colors
+		// https://code.visualstudio.com/api/references/theme-color#quick-picker-colors
+		"pickerGroup.border": "#00010a",
+		"pickerGroup.foreground": "#373d49",
+
+		// Debug colors
+		// https://code.visualstudio.com/api/references/theme-color#debug-colors
+		"debugToolBar.background": "#0d1016",
+
+		// Welcome page colors
+		// https://code.visualstudio.com/api/references/theme-color#welcome-page-colors
+		"walkThrough.embeddedEditorBackground": "#0d1016",
+
+		// Git colors
+		// https://code.visualstudio.com/api/references/theme-color#git-colors
+		"gitDecoration.modifiedResourceForeground": "#6994bfb3",
+		"gitDecoration.deletedResourceForeground": "#d96c75b3",
+		"gitDecoration.untrackedResourceForeground": "#91b362b3",
+		"gitDecoration.ignoredResourceForeground": "#373d49",
+		"gitDecoration.conflictingResourceForeground": "",
+		"gitDecoration.submoduleResourceForeground": "#ffee99b3",
+
+		// Settings Editor colors
+		// Note: These colors are for the GUI settings editor which can be opened with the Preferences: Open Settings (UI) command.
+		// https://code.visualstudio.com/api/references/theme-color#settings-editor-colors
+		"settings.headerForeground": "#b3b1ad",
+		"settings.modifiedItemIndicator": "#6994bf",
+
+		// Integrated Terminal colors
+		// https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors
+		"terminal.background": "#0a0e14",
+		"terminal.foreground": "#b3b1ad",
+		"terminal.ansiBlack": "#00010a",
+		"terminal.ansiRed": "#ea6c73",
+		"terminal.ansiGreen": "#91b362",
+		"terminal.ansiYellow": "#f9af4f",
+		"terminal.ansiBlue": "#53bdfa",
+		"terminal.ansiMagenta": "#fae994",
+		"terminal.ansiCyan": "#90e1c6",
+		"terminal.ansiWhite": "#c7c7c7",
+		"terminal.ansiBrightBlack": "#686868",
+		"terminal.ansiBrightRed": "#f07178",
+		"terminal.ansiBrightGreen": "#c2d94c",
+		"terminal.ansiBrightYellow": "#ffb454",
+		"terminal.ansiBrightBlue": "#59c2ff",
+		"terminal.ansiBrightMagenta": "#ffee99",
+		"terminal.ansiBrightCyan": "#95e6cb",
+		"terminal.ansiBrightWhite": "#ffffff"
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#0a0e14",
+				"foreground": "#b3b1ad"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": ["comment"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#626a73"
+			}
+		},
+		{
+			"name": "String",
+			"scope": ["string", "constant.other.symbol"],
+			"settings": {
+				"foreground": "#c2d94c"
+			}
+		},
+		{
+			"name": "Regular Expressions and Escape Characters",
+			"scope": ["string.regexp", "constant.character", "constant.other"],
+			"settings": {
+				"foreground": "#95e6cb"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": ["constant.numeric"],
+			"settings": {
+				"foreground": "#e6b450"
+			}
+		},
+		{
+			"name": "Built-in constants",
+			"scope": ["constant.language"],
+			"settings": {
+				"foreground": "#e6b450"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": ["variable"],
+			"settings": {
+				"foreground": "#b3b1ad"
+			}
+		},
+		{
+			"name": "Member Variable",
+			"scope": ["variable.member"],
+			"settings": {
+        "foreground": "#f07178",
+        "fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Language variable",
+			"scope": ["variable.language"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#39bae6"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": ["storage"],
+			"settings": {
+				"foreground": "#ff8f40"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": ["keyword"],
+			"settings": {
+				"foreground": "#ff8f40"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": ["keyword.operator"],
+			"settings": {
+				"foreground": "#f29668"
+			}
+		},
+		{
+			"name": "Separators like ; or ,",
+			"scope": ["punctuation.separator", "punctuation.terminator"],
+			"settings": {
+				"foreground": "#b3b1adb3"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": ["punctuation.section"],
+			"settings": {
+				"foreground": "#b3b1ad"
+			}
+		},
+		{
+			"name": "Accessor",
+			"scope": ["punctuation.accessor"],
+			"settings": {
+				"foreground": "#f29668"
+			}
+		},
+		{
+			"name": "Types fixes",
+			"scope": [
+				"source.java storage.type",
+				"source.haskell storage.type",
+				"source.c storage.type"
+			],
+			"settings": {
+				"foreground": "#59c2ff"
+			}
+		},
+		{
+			"name": "Inherited class type",
+			"scope": ["entity.other.inherited-class"],
+			"settings": {
+				"foreground": "#39bae6"
+			}
+		},
+		{
+			"name": "Lambda arrow",
+			"scope": ["storage.type.function"],
+			"settings": {
+				"foreground": "#ff8f40"
+			}
+		},
+		{
+			"name": "Java primitive variable types",
+			"scope": ["source.java storage.type.primitive"],
+			"settings": {
+				"foreground": "#39bae6"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": ["entity.name.function"],
+			"settings": {
+        "foreground": "#ffb454",
+        "fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Function arguments",
+			"scope": ["variable.parameter", "meta.parameter"],
+			"settings": {
+				"foreground": "#ffee99"
+			}
+		},
+		{
+			"name": "Function call",
+			"scope": [
+				"variable.function",
+				"variable.annotation",
+				"meta.function-call.generic",
+				"support.function.go"
+			],
+			"settings": {
+        "foreground": "#ffb454",
+        "fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": ["support.function", "support.macro"],
+			"settings": {
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "Imports and packages",
+			"scope": ["entity.name.import", "entity.name.package"],
+			"settings": {
+				"foreground": "#c2d94c"
+			}
+		},
+		{
+			"name": "Entity name",
+			"scope": ["entity.name"],
+			"settings": {
+				"foreground": "#59c2ff"
+			}
+		},
+		{
+			"name": "Tag",
+			"scope": ["entity.name.tag", "meta.tag.sgml"],
+			"settings": {
+				"foreground": "#39bae6"
+			}
+		},
+		{
+			"name": "Tag start/end",
+			"scope": [
+				"punctuation.definition.tag.end",
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#39bae680"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": ["entity.other.attribute-name"],
+			"settings": {
+        "foreground": "#ffb454",
+        "fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": ["support.constant"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#f29668"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": ["support.type", "support.class", "source.go storage.type"],
+			"settings": {
+				"foreground": "#39bae6"
+			}
+		},
+		{
+			"name": "Decorators/annotation",
+			"scope": [
+				"meta.decorator variable.other",
+				"meta.decorator punctuation.decorator",
+				"storage.type.annotation"
+			],
+			"settings": {
+				"foreground": "#e6b673"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": ["invalid"],
+			"settings": {
+				"foreground": "#ff3333"
+			}
+		},
+		{
+			"name": "diff.header",
+			"scope": ["meta.diff", "meta.diff.header"],
+			"settings": {
+				"foreground": "#c594c5"
+			}
+		},
+		{
+			"name": "Ruby class methods",
+			"scope": ["source.ruby variable.other.readwrite"],
+			"settings": {
+				"foreground": "#ffb454"
+			}
+		},
+		{
+			"name": "CSS tag names",
+			"scope": [
+				"source.css entity.name.tag",
+				"source.sass entity.name.tag",
+				"source.scss entity.name.tag",
+				"source.less entity.name.tag",
+				"source.stylus entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#59c2ff"
+			}
+		},
+		{
+			"name": "CSS browser prefix",
+			"scope": [
+				"source.css support.type",
+				"source.sass support.type",
+				"source.scss support.type",
+				"source.less support.type",
+				"source.stylus support.type"
+			],
+			"settings": {
+				"foreground": "#626a73"
+			}
+		},
+		{
+			"name": "CSS Properties",
+			"scope": ["support.type.property-name"],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#39bae6"
+			}
+		},
+		{
+			"name": "Search Results Nums",
+			"scope": ["constant.numeric.line-number.find-in-files - match"],
+			"settings": {
+				"foreground": "#626a73"
+			}
+		},
+		{
+			"name": "Search Results Match Nums",
+			"scope": ["constant.numeric.line-number.match"],
+			"settings": {
+				"foreground": "#ff8f40"
+			}
+		},
+		{
+			"name": "Search Results Lines",
+			"scope": ["entity.name.filename.find-in-files"],
+			"settings": {
+				"foreground": "#c2d94c"
+			}
+		},
+		{
+			"scope": ["message.error"],
+			"settings": {
+				"foreground": "#ff3333"
+			}
+		},
+		{
+			"name": "Markup heading",
+			"scope": ["markup.heading", "markup.heading entity.name"],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#c2d94c"
+			}
+		},
+		{
+			"name": "Markup links",
+			"scope": ["markup.underline.link", "string.other.link"],
+			"settings": {
+				"foreground": "#39bae6"
+			}
+		},
+		{
+			"name": "Markup Italic",
+			"scope": ["markup.italic"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "Markup Bold",
+			"scope": ["markup.bold"],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "Markup Bold/italic",
+			"scope": ["markup.italic markup.bold", "markup.bold markup.italic"],
+			"settings": {
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "Markup Code",
+			"scope": ["markup.raw"],
+			"settings": {
+				"background": "#b3b1ad05"
+			}
+		},
+		{
+			"name": "Markup Code Inline",
+			"scope": ["markup.raw.inline"],
+			"settings": {
+				"background": "#b3b1ad0f"
+			}
+		},
+		{
+			"name": "Markdown Separator",
+			"scope": ["meta.separator"],
+			"settings": {
+				"fontStyle": "bold",
+				"background": "#b3b1ad0f",
+				"foreground": "#626a73"
+			}
+		},
+		{
+			"name": "Markup Blockquote",
+			"scope": ["markup.quote"],
+			"settings": {
+				"foreground": "#95e6cb",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup List Bullet",
+			"scope": ["markup.list punctuation.definition.list.begin"],
+			"settings": {
+				"foreground": "#ffb454"
+			}
+		},
+		{
+			"name": "Markup added",
+			"scope": ["markup.inserted"],
+			"settings": {
+				"foreground": "#91b362"
+			}
+		},
+		{
+			"name": "Markup modified",
+			"scope": ["markup.changed"],
+			"settings": {
+				"foreground": "#6994bf"
+			}
+		},
+		{
+			"name": "Markup removed",
+			"scope": ["markup.deleted"],
+			"settings": {
+				"foreground": "#d96c75"
+			}
+		},
+		{
+			"name": "Markup Strike",
+			"scope": ["markup.strike"],
+			"settings": {
+				"foreground": "#e6b673"
+			}
+		},
+		{
+			"name": "Markup Table",
+			"scope": ["markup.table"],
+			"settings": {
+				"background": "#b3b1ad0f",
+				"foreground": "#39bae6"
+			}
+		},
+		{
+			"name": "Markup Raw Inline",
+			"scope": ["text.html.markdown markup.inline.raw"],
+			"settings": {
+				"foreground": "#f29668"
+			}
+		},
+		{
+			"name": "Markdown - Line Break",
+			"scope": ["text.html.markdown meta.dummy.line-break"],
+			"settings": {
+				"background": "#626a73",
+				"foreground": "#626a73"
+			}
+		},
+		{
+			"name": "Markdown - Raw Block Fenced",
+			"scope": ["punctuation.definition.markdown"],
+			"settings": {
+				"background": "#b3b1ad",
+				"foreground": "#626a73"
+			}
+		}
+	]
+}
